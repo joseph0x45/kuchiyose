@@ -1,20 +1,12 @@
 {
-  "name": "kuchiyose",
-  "version": "0.0.4",
-  "description": "",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "bin": "./bin.js",
-  "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
-  }
+    "name": "kuchiyose",
+    "version": "0.0.4",
+    "description": "Yet another project scaffolder",
+    "bin": "./bin.js",
+    "scripts": {
+        "lint": "eslint bin.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
