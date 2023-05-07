@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-console.log("Hello from Kuchiyose bozo")
+
+console.log("Welcome to kuchiyose. Contribute to this package at https://github.com/TheWisePigeon/kuchiyose")
+console.log(__dirname)
