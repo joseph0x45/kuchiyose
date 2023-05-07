@@ -1,4 +1,4 @@
-const templates = [
+export const templates = [
     {
         name:"kitty",
         description:"Barebones Sveltekit and tailwind project",
@@ -7,6 +7,3 @@ const templates = [
     }
 ]
 
-export default {
-    templates
-}
