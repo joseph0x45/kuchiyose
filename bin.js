@@ -5,7 +5,7 @@ const issues_url = "https://github.com/TheWisePigeon/kuchiyose/issues"
 
 import inquirer from "inquirer"
 import fs from "fs-extra"
-const { copySync, mkdirSync } = fs
+const { copySync } = fs
 import { join, dirname } from "path"
 import { templates } from "./utils.js"
 import { fileURLToPath } from "url"
@@ -22,10 +22,22 @@ if (is_interactive) {
 }
 
 const template_name = args[2]
+
+if(args[2]==="templates"){
+    console.log("These are the available templates\n")
+    templates.map(template=>{
+        console.log(`=== ${template.name} ===`)
+        console.log(`Author: ${template.author}`)
+        console.log(`Description: ${template.description}\n`)
+    })
+    console.log(`Contribute to kuchiyose by adding your template here ${repo_url}`)
+    process.exit(0)
+}
+
 const app_dir = args[3]
 if (!templates.find(template => template.name === template_name)) {
     console.log(`No template named ${template_name}!`)
-    console.log(`See list of templates at ${repo_url}/templates.md`)
+    console.log("Run `npx kuchiyose templates` to see list of all templates")
     process.exit(0)
 }
 
