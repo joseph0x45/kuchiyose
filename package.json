@@ -5,7 +5,6 @@
     "description": "Yet another project scaffolder",
     "bin": "./bin.js",
     "scripts": {
-        "lint": "eslint bin.js"
     },
     "keywords": [],
     "author": "",
