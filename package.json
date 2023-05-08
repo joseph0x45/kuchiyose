@@ -1,6 +1,6 @@
 {
     "name": "kuchiyose",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "type": "module",
     "description": "Yet another project scaffolder",
     "bin": "./bin.js",
