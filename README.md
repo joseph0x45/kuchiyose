@@ -36,3 +36,6 @@ Contributing to kuchiyose is really simple. Clone the repo and then create your 
 
 ```
 Add your template's informations at the bottom of the array, following the defined schema. And that's it.
+
+## Roadmap
+- Add "template aware commands"
