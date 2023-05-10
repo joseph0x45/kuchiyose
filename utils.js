@@ -5,12 +5,6 @@ export const templates = [
         author:"thewisepigeon <https://github.com/TheWisePigeon>",
         tags:["sveltekit", "svelte", "tailwind"]
     },
-    {
-        name:"rustix",
-        description:"Actix&tokio web project",
-        author:"thewisepigeon <https://github.com/TheWisePigeon>",
-        tags:["rust", "api", "backend", "actix", "actix-web"]
-    },
   {
     name:"rex-ts",
     description:"Barebones express and TypeScript project",
