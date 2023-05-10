@@ -10,6 +10,17 @@ export const templates = [
         description:"Actix&tokio web project",
         author:"thewisepigeon <https://github.com/TheWisePigeon>",
         tags:["rust", "api", "backend", "actix", "actix-web"]
-    }
+    },
+  {
+    name:"rex-ts",
+    description:"Barebones express and TypeScript project",
+    author:"thewisepigeon <https://github.com/TheWisePigeon>",
+    tags: ["typescript", "express"]
+  },  {
+    name:"rex-js",
+    description:"Barebones express and JavaScript project",
+    author:"thewisepigeon <https://github.com/TheWisePigeon>",
+    tags: ["javascript", "express"]
+  }
 ]
 
