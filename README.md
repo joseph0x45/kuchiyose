@@ -14,3 +14,6 @@ Example:
 - Get list of all templates
 
 `npx kuchiyose templates`
+
+## Contributions
+Contributing to kuchiyose is really simple. Clone the repo and then create your branch. Create your starter template in the `templates` directory. Then open the utils.js file and add you should find a constant named `templates`. Add your template's informations at the bottom of the array, following the defined schema. And that's it.
