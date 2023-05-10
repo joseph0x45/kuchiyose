@@ -51,8 +51,6 @@ if (app_dir) {
             console.log('Contribute to kuchiyose and add your own templates at ')
             process.exit(0)
         }
-        console.log("Copying files")
-        copySync(`${TEMPLATES_PATH}/${template_name}`, app_dir)
         console.log(`Your project was created at ${app_dir}`)
         console.log(`Now run cd ${app_dir}, pnpm/npm/yarn install and happy coding!`)
         process.exit(0)
