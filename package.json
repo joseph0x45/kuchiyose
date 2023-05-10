@@ -1,20 +1,19 @@
 {
-    "name": "kuchiyose",
-    "version": "0.0.8",
-    "type": "module",
-    "description": "Yet another project scaffolder",
-    "bin": "./bin.js",
-    "scripts": {
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "fs-extra": "^11.1.1",
-        "inquirer": "^9.2.2"
-    },
-    "devDependencies": {
-        "@types/fs-extra": "^11.0.1",
-        "@types/inquirer": "^9.0.3"
-    }
+  "name": "kuchiyose",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Yet another project scaffolder",
+  "bin": "./bin.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/inquirer": "^9.0.3"
+  }
 }
