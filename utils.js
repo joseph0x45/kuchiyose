@@ -16,6 +16,12 @@ export const templates = [
     description:"Vercel Rust serverless functions",
     author:"thewisepigeon <https://github.com/TheWisePigeon>",
     tags: ["rust", "vercel", "serverless functions"]
+  },
+  {
+    name:"go-serverless",
+    description:"Vercel Go serverless functions",
+    author:"thewisepigeon <https://github.com/TheWisePigeon>",
+    tags: ["go", "vercel", "serverless functions"]
   }
 ]
 
