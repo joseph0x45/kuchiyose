@@ -22,6 +22,12 @@ export const templates = [
     description:"Vercel Go serverless functions",
     author:"thewisepigeon <https://github.com/TheWisePigeon>",
     tags: ["go", "vercel", "serverless functions"]
+  },
+  {
+    name:"npm-basic-ts",
+    description:"Simple TypeScript npm package",
+    author:"thewisepigeon <https://github.com/TheWisePigeon>",
+    tags: ["typescript", "npm", "npm package", "nodejs"]
   }
 ]
 
