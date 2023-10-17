@@ -35,4 +35,10 @@ export const templates = [
     author: "ara-o <https://github.com/Ara-O>",
     tags: ["vue", "vite", "typescript", "tailwind"],
   },
+  {
+    name: "chichi",
+    description: "Simple Chi project with an opinionated folder structure",
+    author: "ara-o <https://github.com/TheWisePigeon>",
+    tags: ["golang", "Chi", "go", "go-chi" ],
+  },
 ];
