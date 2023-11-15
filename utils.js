@@ -41,4 +41,10 @@ export const templates = [
     author: "ara-o <https://github.com/TheWisePigeon>",
     tags: ["golang", "Chi", "go", "go-chi" ],
   },
+  {
+    name: "nativewind",
+    description: "Expo app setup with expo-router and nativewind for styling",
+    author: "thewisepigeon <https://github.com/TheWisePigeon>",
+    tags: ["expo", "react-native", "tailwind", "nativewind" ],
+  },
 ];
